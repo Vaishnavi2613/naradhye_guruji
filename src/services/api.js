@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: "https://naradhye-guruji.onrender.com",
 });
 
 export const createBooking = (data) =>
